@@ -175,3 +175,8 @@ input[type="email"], input[type="email"]:focus {
         font-size: 0.875rem;
     }
 }
+@media (max-width:425px) {
+    .login-form {
+        padding: 1.5em;
+    }
+}
