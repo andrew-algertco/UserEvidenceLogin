@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="login-banner">
+        <div class="inner-content">
+            <form class="login-form">
+                <div class="form-logo">
+                    <img src="./images/UserEvidence Login Logo.svg" alt="UserEvidence Logo">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button class="btn btn-signin" type="submit">Sign in</button>
+                <button class="btn btn-google-signin" onclick="loginWithGoogle()"><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="20" height="20" transform="translate(0.5)" fill="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6883 10.2176C19.6883 9.53801 19.6273 8.8846 19.514 8.25732H10.4883V11.9643H15.6459C15.4237 13.1622 14.7485 14.1772 13.7335 14.8568V17.2613H16.8307C18.6428 15.5929 19.6883 13.1361 19.6883 10.2176Z" fill="#4285F4"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5093 19.5823C13.0968 19.5823 15.2661 18.7242 16.8518 17.2605L13.7546 14.856C12.8965 15.431 11.7987 15.7708 10.5093 15.7708C8.01331 15.7708 5.90062 14.085 5.14702 11.8198H1.94531V14.3028C3.52221 17.4348 6.76312 19.5823 10.5093 19.5823Z" fill="#34A853"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.1468 11.8199C4.95514 11.2449 4.84624 10.6307 4.84624 9.9991C4.84624 9.36747 4.95514 8.75327 5.1468 8.17827V5.69531H1.9451C1.29605 6.98906 0.925781 8.4527 0.925781 9.9991C0.925781 11.5455 1.29605 13.0091 1.9451 14.3029L5.1468 11.8199Z" fill="#FBBC05"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5093 4.22806C11.9163 4.22806 13.1796 4.71158 14.1728 5.6612L16.9215 2.91253C15.2618 1.36612 13.0925 0.416504 10.5093 0.416504C6.76312 0.416504 3.52221 2.56404 1.94531 5.69605L5.14702 8.179C5.90062 5.91385 8.01331 4.22806 10.5093 4.22806Z" fill="#EA4335"/>
+                </svg> Log in with Google</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
