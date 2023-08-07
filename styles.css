@@ -44,11 +44,11 @@
     display: block;
     margin:0 auto 2em;
 }
-.mismatch-error {
+.mismatch-notice {
     font-size: 1rem;
     line-height: 124%;
     font-family: "Rubik", sans-serif;
-    background: var(--accent-color-pink-50, linear-gradient(0deg, rgba(255, 255, 255, 0.90) 0%, rgba(255, 255, 255, 0.90) 100%), var(--accent-color-pink-600));
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.90) 0%, rgba(255, 255, 255, 0.90) 100%), var(--accent-color-pink-600);
     color: var(--accent-color-pink-600);
     padding: 1.125em;
     display: grid;
@@ -57,7 +57,7 @@
     margin-bottom: 1.5em;
     gap: 1.5em;
 }
-.mismatch-error > svg {
+.mismatch-notice > svg {
     cursor: pointer;
 }
 .form-group {
@@ -88,7 +88,7 @@
 input[type="email"], input[type="email"]:focus {
     outline: 1px solid var(--accent-color-pink-600);
 }
-.record-error {
+.record-notice {
     color: var(--accent-color-pink-600);
     margin-top: 0.25em;
     font-size: 1rem;
@@ -152,11 +152,11 @@ input[type="email"], input[type="email"]:focus {
     }
 }
 @media (max-width:575px) {
-    .mismatch-error svg {
+    .mismatch-notice svg {
         width: 24px;
         height: 24px;
     }
-    .mismatch-error, .record-error {
+    .mismatch-notice, .record-notice {
         font-size: 0.875rem;
     }
 }
