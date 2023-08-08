@@ -163,6 +163,7 @@ a {
     gap:1.75em;
 }
 .btn-cta {
+    font-size: 0.875rem;
     background:var(--color-primary);
     color:var(--neutral-white);
     border: none;
@@ -422,9 +423,6 @@ a {
     }
     .form-heading {
         font-size: 1.25rem;
-    }
-    .btn-cta {
-        font-size:0.875rem;
     }
     .footer-logo {
         order:1;
