@@ -361,6 +361,11 @@ a {
         gap:2em;
         width: 100%;
     }
+    .dropdown-content > a {
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--neutral-color-black);
+    }
     .dropdown.active .dropdown-content {
         max-height: 300px; /* Adjust the value as needed */
     }
