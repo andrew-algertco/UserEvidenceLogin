@@ -540,13 +540,4 @@ form p {
         margin-left: 0;
         margin-top: 1em;
     }
-    .btn-toggle {
-        padding: 0.25em;
-    }
-    .btn-open {
-        display: block;
-    }
-    .btns {
-        display: none;
-    }
 }
