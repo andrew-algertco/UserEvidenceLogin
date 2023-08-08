@@ -42,7 +42,7 @@ a {
     max-width: 1438px;
     margin:auto;
 }
-.logo > img {
+.logo img {
     display: block;
     max-width: 160px;
 }
@@ -292,7 +292,7 @@ a {
     }
 }
 @media (max-width:1200px) {
-    .logo > img {
+    .logo img {
         max-width: 140px;
     }
     .menu-items {
@@ -313,7 +313,7 @@ a {
         width: 100%;
         gap:1em;
     }
-    .logo > img {
+    .logo img {
         max-width: 160px;
     }
     .nav {
