@@ -44,13 +44,14 @@ a {
 }
 .logo > img {
     display: block;
+    max-width: 160px;
 }
 .menu-items {
     list-style: none;
     gap:2em;
 }
 .menu-link {
-    font-size: 1rem;
+    font-size: 0.875rem;
     font-weight: 700;
     text-transform: uppercase;
     color:var(--neutral-color-black);
@@ -289,9 +290,6 @@ a {
     .menu-items {
         gap:1.5em;
     }
-    .menu-link {
-        font-size: 0.875rem;
-    }
 }
 @media (max-width:1200px) {
     .logo > img {
@@ -316,7 +314,7 @@ a {
         gap:1em;
     }
     .logo > img {
-        max-width: 100%;
+        max-width: 160px;
     }
     .nav {
         display: none;
@@ -368,7 +366,7 @@ a {
     }
     .dropdown.active .dropdown-content {
         max-height: 300px; /* Adjust the value as needed */
-        padding-top: 2em;
+        padding-top: 1.5em;
     }
     .dd-menu-link {
         display: flex;
