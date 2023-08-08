@@ -369,7 +369,7 @@ ul {
         max-height: 300px; /* Adjust the value as needed */
         padding-top: 1.5em;
     }
-    .dropdown.active i {
+    .dropdown.active svg {
         transform: rotate(90deg);
     }
     .dd-menu-link {
