@@ -5,7 +5,7 @@ const toggleNavigation = () => {
     navigation.classList.toggle('show-navigation');
     
     if (navigation.classList.contains('show-navigation')) {
-        document.body.style.overflow = 'auto'; // Hide scrolling on body
+        document.body.style.overflow = 'clip'; // Hide scrolling on body
     } else {
         document.body.style.overflow = 'auto'; // Enable scrolling on body
     }
