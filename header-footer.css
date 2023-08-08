@@ -351,7 +351,7 @@ a {
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.3s ease-in-out;
-        position: absolute;
+        position: relative;
         background-color: #f9f9f9;
         min-width: 160px;
         z-index: 1;
@@ -359,6 +359,7 @@ a {
         flex-direction: column;
         gap:2em;
         width: 100%;
+        padding-left: 1.5em;
     }
     .dropdown-content > a {
         font-weight: 700;
