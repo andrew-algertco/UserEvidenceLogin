@@ -352,7 +352,7 @@ a {
         overflow: hidden;
         transition: max-height 0.3s ease-in-out;
         position: relative;
-        background-color: #f9f9f9;
+        background: var(--neutral-white);
         min-width: 160px;
         z-index: 1;
         display: flex;
@@ -368,6 +368,7 @@ a {
     }
     .dropdown.active .dropdown-content {
         max-height: 300px; /* Adjust the value as needed */
+        padding-top: 2em;
     }
     .dd-menu-link {
         display: flex;
