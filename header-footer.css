@@ -522,7 +522,7 @@ form p {
     .btn-signin, .btn-bookademo {
         display:none;
     }
-    .navigation-md .btn-signin {
+    .navigation-md .btn-signin, .navigation-md .btn-bookademo {
         display:block;
     }   
     .btn-bookademo {
