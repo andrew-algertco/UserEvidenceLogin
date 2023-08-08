@@ -396,7 +396,7 @@ form p {
         margin-left: auto;
     }
     .navigation-md .btns {
-        position: absolute;
+        position: relative;
         bottom: 0;
         left: 0;
         padding: 2em;
@@ -455,8 +455,11 @@ form p {
         padding: 0 1em;
         min-height: 70px;
     }
-    .navigation-md, .navigation-md .btns {
+    .navigation-md {
         padding: 1.5em 1em;
+    }
+    .navigation-md .btns {
+        padding: 1.5em 1em 0;
     }
     .footer {
         padding:4em 1em;
