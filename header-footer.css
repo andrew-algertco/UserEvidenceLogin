@@ -521,10 +521,32 @@ form p {
     .btn-signin, .btn-bookademo {
         display:none;
     }
-    .navigation-md .btn-signin, .navigation-md .btn-bookademo {
-        display:block;
-    }   
     .btn-bookademo {
         font-size: 0.75rem;
+    }
+}   
+
+@media (max-width: 375px) {
+    .navigation-md .btns {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 1.5em;
+        width: 100%;
+        margin: 0;
+        box-shadow: 0px -10px 12px 0px rgba(29, 28, 29, 0.04);
+    }
+    .navigation-md .btn-bookademo {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+    .btn-toggle {
+        padding: 0.25em;
+    }
+    .btn-open {
+        display: block;
+    }
+    .btns {
+        display: none;
     }
 }
