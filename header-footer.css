@@ -380,7 +380,7 @@ form p {
         justify-content: space-between;
     }
     .nav-md .menu-link {
-        font-size: 1rem;
+        font-size: 0.95rem;
         display: flex;
         width: 100%;
     }
@@ -400,6 +400,7 @@ form p {
         padding: 0.75em 0.88em;
         line-height: 1.1em;
         text-align: center;
+        letter-spacing: initial;
     }
     .btns {
         margin-left: auto;
