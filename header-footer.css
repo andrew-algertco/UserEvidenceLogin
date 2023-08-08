@@ -369,6 +369,9 @@ ul {
         max-height: 300px; /* Adjust the value as needed */
         padding-top: 1.5em;
     }
+    .dropdown.active i {
+        transform: rotate(90deg);
+    }
     .dd-menu-link {
         display: flex;
         justify-content: space-between;
@@ -416,11 +419,23 @@ ul {
     .footer {
         padding:4em 2em;
     }
+    .footer-wrapper {
+        gap:1em;
+    }
     .form-subscribe {
         padding: 1.5em;
     }
     .form-heading {
         font-size: 1.125rem;
+    }
+    .footer-menu-items {
+        gap: 1.75em;
+    }
+    .footer-menu-link, .footer-submenu-items > li:first-child, .footer-submenu-link {
+        font-size: 0.95rem;
+    }
+    .footer-submenu-items > li:not(:first-child) .footer-submenu-link {
+        font-size: 0.9rem;
     }
 }
 @media (max-width:767px) {
