@@ -391,6 +391,9 @@ form p {
     .dd-menu-link {
         padding: 0;
     }
+    .btns {
+        margin-left: auto;
+    }
     .navigation-md .btns {
         position: fixed;
         bottom: 0;
@@ -400,6 +403,7 @@ form p {
         flex-direction: column;
         gap:1em;
         width: 100%;
+        margin:0;
     }
     .navigation-md .btn {
         font-size: 0.95rem;
@@ -407,9 +411,6 @@ form p {
         line-height: 1.1em;
         text-align: center;
         letter-spacing: initial;
-    }
-    .btns {
-        margin-left: auto;
     }
     .btn-open {
         display: block;
