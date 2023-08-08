@@ -175,6 +175,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 2em;
+    list-style: none;
 }
 .footer-menu-link,.footer-submenu-items > li:first-child, .footer-submenu-link {
     color:var(--neutral-white);
