@@ -222,11 +222,11 @@ ul {
 .social-links > a:hover > img {
     filter:invert(1);
 }
-.form-subscribe {
+form {
     background: var(--neutral-color-gray);
     padding:2em;
 }
-.form-heading {
+h6 {
     font-size:1.25rem;
     font-weight: 400;
     line-height: 108%;
@@ -263,7 +263,7 @@ ul {
 .btn-arrow-icon:hover {
     background:var(--color-purple-900);
 }
-.form-desc {
+form p {
     font-size: 0.875rem;
     margin-top: 1.25rem;
     color:var(--color-light-gray-200);
@@ -422,10 +422,10 @@ ul {
     .footer-wrapper {
         gap:1em;
     }
-    .form-subscribe {
+    form {
         padding: 1.5em;
     }
-    .form-heading {
+    h6 {
         font-size: 1.125rem;
     }
     .footer-menu-items {
@@ -478,7 +478,7 @@ ul {
         gap:1.5em;
         margin-bottom: 1em;
     }
-    .form-subscribe {
+    form {
         margin-top: 2em;
     }
     .footer-submenu-items {
