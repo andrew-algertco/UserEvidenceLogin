@@ -519,7 +519,7 @@ form p {
     .logo > img {
         max-width: 140px;
     }
-    .btn-signin {
+    .btn-signin, .btn-bookademo {
         display:none;
     }
     .navigation-md .btn-signin {
