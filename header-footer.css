@@ -345,6 +345,8 @@ form p {
         align-items: stretch;
         flex-direction: column;
         gap:2.5em;
+        max-height: 60vh;
+        overflow-x: hidden;
     }
     .dropdown-content {
         max-height: 0;
