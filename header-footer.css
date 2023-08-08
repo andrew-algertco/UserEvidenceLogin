@@ -347,6 +347,23 @@ a {
         flex-direction: column;
         gap:2.5em;
     }
+    .dropdown-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        gap:2em;
+        width: 100%;
+    }
+    .dropdown.active .dropdown-content {
+        max-height: 300px; /* Adjust the value as needed */
+    }
     .dd-menu-link {
         display: flex;
         justify-content: space-between;
