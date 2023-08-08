@@ -345,7 +345,7 @@ form p {
     .nav-md .menu-items {
         align-items: stretch;
         flex-direction: column;
-        gap:2.5em;
+        gap:2em;
         max-height: 60vh;
         overflow-x: hidden;
     }
