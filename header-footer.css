@@ -334,7 +334,7 @@ form p {
         padding: 2em;
         display: flex;
         align-items: flex-start;
-        justify-content: initial;
+        /* justify-content: initial; */
         gap:2em;
         transform: translateX(100%);
         transition: transform .3s ease-in-out;
@@ -397,6 +397,7 @@ form p {
     }
     .btns-wrapper {
         position: relative;
+        width: 100%;
     }
     .navigation-md .btns {
         position: absolute;
