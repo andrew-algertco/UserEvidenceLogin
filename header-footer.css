@@ -525,9 +525,3 @@ form p {
         font-size: 0.75rem;
     }
 }   
-
-@media (max-width: 375px) {
-    .navigation-md {
-        padding:1em 1em 0;
-    }
-}
