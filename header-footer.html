@@ -133,31 +133,7 @@
             </ul>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/app.js"></script>
 
-    <script>
-        // Toggle the navigation when the hamburger menu is clicked
-        $(document).ready(function () {
-            $('.btn-open').click(function () {
-                $('.navigation').toggleClass('show-navigation');
-            });
-            
-            $('.btn-close').click(function () {
-                $('.navigation').removeClass('show-navigation');
-            });
-            
-            $(".dropdown").click(function() {
-                $(this).toggleClass("active");
-            });
-
-            // Close dropdown when clicking outside
-            $(document).click(function(event) {
-                if (!$(event.target).closest(".dropdown").length) {
-                    $(".dropdown").removeClass("active");
-                }
-            });
-
-        });
-    </script>
 </body>
 </html>
