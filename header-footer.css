@@ -395,8 +395,11 @@ form p {
     .btns {
         margin-left: auto;
     }
+    .btns-wrapper {
+        position: relative;
+    }
     .navigation-md .btns {
-        position: fixed;
+        position: absolute;
         bottom: 0;
         left: 0;
         padding: 2em;
