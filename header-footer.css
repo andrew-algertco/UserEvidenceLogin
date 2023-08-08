@@ -343,6 +343,7 @@ form p {
     }
     .show-navigation {
         transform: translateX(0);
+        overflow: auto;
     }
     .nav-md {
         width: 100%;
@@ -402,6 +403,7 @@ form p {
         left: 0;
         padding: 2em;
         display: flex;
+        align-items: center;
         flex-direction: column;
         gap:1em;
         width: 100%;
@@ -414,6 +416,7 @@ form p {
         line-height: 1.1em;
         text-align: center;
         letter-spacing: initial;
+        width: 100%;
     }
     .btn-open {
         display: block;
