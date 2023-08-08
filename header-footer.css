@@ -414,26 +414,11 @@ ul {
     .footer {
         padding:4em 2em;
     }
-    .footer-wrapper {
-        grid-template-columns: repeat(2, 1fr);
-    }
     .form-subscribe {
         padding: 1.5em;
     }
     .form-heading {
         font-size: 1.125rem;
-    }
-    .footer-logo {
-        order:1;
-    }
-    .form-subscribe {
-        order:2;
-    }
-    .footer-menu-items {
-        order:3;
-    }
-    .menu-and-social {
-        order:4;
     }
 }
 @media (max-width:767px) {
@@ -473,19 +458,11 @@ ul {
         gap:1em;
     }
     .footer-logo {
-        order:1;
         gap:1.5em;
         margin-bottom: 1em;
     }
     .form-subscribe {
-        order:4;
         margin-top: 2em;
-    }
-    .footer-menu-items {
-        order:2;
-    }
-    .menu-and-social {
-        order:3;
     }
     .footer-submenu-items {
         display: flex;
