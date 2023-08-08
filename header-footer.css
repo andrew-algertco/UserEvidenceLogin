@@ -395,13 +395,13 @@ form p {
         margin-left: auto;
     }
     .btns-wrapper {
-        position: relative;
+        position: fixed;
         width: 100%;
-    }
-    .navigation-md .btns {
-        position: absolute;
         bottom: 0;
         left: 0;
+    }
+    .navigation-md .btns {
+        position: relative;
         padding: 2em;
         width: 100%;
         box-shadow: 0px -10px 12px 0px rgba(29, 28, 29, 0.04);
