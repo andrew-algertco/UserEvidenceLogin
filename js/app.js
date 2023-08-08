@@ -1,7 +1,15 @@
 const navigation = document.querySelector('.navigation-md');
 const dropdowns = document.querySelectorAll('.dropdown');
 
-const toggleNavigation = () => navigation.classList.toggle('show-navigation');
+const toggleNavigation = () => {
+    navigation.classList.toggle('show-navigation');
+    
+    if (navigation.classList.contains('show-navigation')) {
+        document.body.style.overflow = 'hidden'; // Hide scrolling on body
+    } else {
+        document.body.style.overflow = 'auto'; // Enable scrolling on body
+    }
+};
 
 document.querySelectorAll('.btn-open, .btn-close').forEach(button => {
     button.addEventListener('click', toggleNavigation);
@@ -16,3 +24,4 @@ document.addEventListener('click', event => {
         dropdowns.forEach(dropdown => dropdown.classList.remove('active'));
     }
 });
+
