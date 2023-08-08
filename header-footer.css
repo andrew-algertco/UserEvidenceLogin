@@ -391,7 +391,10 @@ form p {
         padding: 0;
     }
     .navigation-md .btns {
-        margin-top: auto;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 2em;
         display: flex;
         flex-direction: column;
         gap:1em;
@@ -450,7 +453,7 @@ form p {
         padding: 0 1em;
         min-height: 70px;
     }
-    .navigation-md {
+    .navigation-md, .navigation-md .btns {
         padding: 1.5em 1em;
     }
     .footer {
