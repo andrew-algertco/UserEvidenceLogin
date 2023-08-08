@@ -400,9 +400,6 @@ form p {
         bottom: 0;
         left: 0;
         padding: 2em;
-        display: flex;
-        flex-direction: column;
-        gap:1em;
         width: 100%;
         margin:0;
         box-shadow: 0px -10px 12px 0px rgba(29, 28, 29, 0.04);
@@ -413,12 +410,14 @@ form p {
         line-height: 1.1em;
         text-align: center;
         letter-spacing: initial;
+        display: block;
     }
     .btn-open {
         display: block;
     }
     .navigation-md .btn-bookademo {
         margin-left: 0;
+        margin-top: 1em;;
     }
 }
 @media (max-width:991px) {
