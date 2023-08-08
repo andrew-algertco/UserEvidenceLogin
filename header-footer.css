@@ -329,7 +329,7 @@ form p {
         right: 0;
         height: 100vh;
         width: 100%;
-        padding: 2em;
+        padding: 2em 2em 0;
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
@@ -396,9 +396,9 @@ form p {
     }
     .navigation-md .btns {
         position: fixed;
-        bottom: 0;
+        bottom: 2em;
         left: 0;
-        padding: 2em;
+        padding: 2em 2em 0;
         display: flex;
         flex-direction: column;
         gap:1em;
@@ -425,7 +425,7 @@ form p {
         padding:0 2em;
     }
     .navigation-md {
-        padding: 2em;
+        padding: 2em 2em 0;
     }
     .footer {
         padding:4em 2em;
@@ -454,8 +454,11 @@ form p {
         padding: 0 1em;
         min-height: 70px;
     }
-    .navigation-md, .navigation-md .btns {
-        padding: 1.5em 1em;
+    .navigation-md {
+        padding:1.5em 1em 0;
+    }
+    .navigation-md .btns {
+        padding: 1.5em 1em 0;
     }
     .footer {
         padding:4em 1em;
