@@ -27,6 +27,7 @@
     background-image: url(./images/3.svg);
     background-position: top right;
     background-repeat: no-repeat;
+    background-size: auto 100%;
     padding:6.75em 2.25em;
 }
 .inner-content {
